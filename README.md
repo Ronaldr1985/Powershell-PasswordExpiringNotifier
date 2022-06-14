@@ -6,7 +6,7 @@ The email server IP is stored in the Variables file and so is the email address 
 
 ## Requirements
 
-As the script now logs to Event Viewer it needs to have a source setup in Event Viewer, the source name is decided in the Variables.ps1 file. If the source doesn't exist the script will fail. To check if the source name exists you can run the following command from and Administrator PowerShell prompt:
+As the script now logs to Event Viewer it needs to have a source setup in Event Viewer, the source name is decided in the Variables.ps1 file. If the source doesn't exist the script will fail. To check if the source name exists you can run the following command from an Administrator PowerShell prompt:
 
     [System.Diagnostics.EventLog]::SourceExists("PutYourSourceNameHere")
 
